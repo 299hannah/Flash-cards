@@ -20,11 +20,11 @@ import cloudinary.uploader
 import cloudinary.api
 
 
-cloudinary.config( 
-  cloud_name = "YOUR_CLOUD_NAME", 
-  api_key = "YOUR_API_KEY", 
-  api_secret = "YOUR_API_SECRET" 
-)
+#cloudinary.config( 
+ # cloud_name = "YOUR_CLOUD_NAME", 
+ # api_key = "YOUR_API_KEY", 
+ # api_secret = "YOUR_API_SECRET" 
+#)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'cards',
-    'clodinary',
+    'cloudinary',
     'bootstrap4',
 
 ]
