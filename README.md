@@ -1,7 +1,8 @@
 # Collaborators
-> Mwangi Hannah Wambui
-> John Paul Otieno
-> Martin Mylles
+> - Mwangi Hannah Wambui
+
+> - John Paul Otieno
+> - Martin Mylles
 
 ## Description
 
