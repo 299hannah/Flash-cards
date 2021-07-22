@@ -1,4 +1,12 @@
-from django.shortcuts import render
+
+from django.shortcuts import render, redirect
+
+# Create your views here.
+
+def logout(request):
+    logout(request)
+    return redirect('login')
+
 from .forms import TaskForm
 # Create your views here.
 def index(request):
@@ -52,6 +60,7 @@ def delete_task(request, pk):
 	'task':task
 	}
 	return render(request, 'delete.html')
+
 
 
 
